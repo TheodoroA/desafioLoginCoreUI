@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Gadugi";
+    src: url("//db.onlinewebfonts.com/t/3f3f1a887702b525cda01f7cd776b241.ttf") format("truetype");
+}
+
+.DefaultBackground{
+    background-color: #212121;
+}
+#LoginLogo{
+    width: 15vw;
+    padding-bottom: 2vh;
+}
+.LoginText{
+    color: whitesmoke;
+    font-family: Gadugi;
+}
+.LoginButton{
+    border-style: solid !important;
+    border-color: whitesmoke !important;
+    width: 10vw;
+    background-color: #212121 !important;
+    border-radius: 0 !important;
+    margin-top: 2vh;
+    font-family: Gadugi;
+}
+
+.LoginTextForm{
+    background-color: #212121 !important;
+    border: none !important;
+    text-align: center;
+    padding: 0.357rem 5vw !important;
+    color: whitesmoke !important;
+}
+
+.LoginTextForm:focus{
+    box-shadow: none !important;
+}
+
+.LoginTextForm{
+    background-color: #212121 !important;
+    border: none !important;
+    text-align: center;
+    padding: 0.375rem 2vw !important;
+    width: 20vw !important;
+}
+
+.LoginUnderline{
+    border-bottom-style: solid;
+    border-color: whitesmoke;
+
+}
+
+#LoginCheckboxContainer{
+    margin-top: 1vh;
+}
+
+#LoginCheckbox{
+    background-color: #212121;
+    border-color: whitesmoke;
+    border-radius: 0;   
+}
+
+#LoginLinkPadding{
+    padding-top: 10vh;
+}
+
+.LoginLink{
+    text-decoration: none;
+    padding-top: 1vh;
+}
+
+.Centralized{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
