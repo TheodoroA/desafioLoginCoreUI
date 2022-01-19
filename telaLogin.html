@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="./css/mainLogin.css" rel="stylesheet">
+    <link href="./css/coreui.css" rel="stylesheet">
+    
+    <title>Login</title>
+  </head>
+
+
+  <body class="DefaultBackground">
+    <div class="container Centralized"> 
+
+        <!--Logo-->
+        <div class="row">
+          <div class="col Centralized">
+            <img src="imgs/LogoDietSmart.png" alt="Logo DietSmart" id="LoginLogo">
+          </div>
+        </div>
+
+        <!--Formulario de Login-->
+        <div class="row">
+          <div class="col">
+            <div class="form-group LoginUnderline">
+              <label class="LoginText ">Login</label>
+              <input type="text" class="LoginTextForm form-control" placeholder="DietSmart@email.com">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col">
+            <div class="form-group LoginUnderline">
+              <label class="LoginText">Senha</label>
+              <input type="password" class="LoginTextForm form-control" id="formGroupExampleInput" placeholder="************">
+            </div>
+          </div>
+        </div>
+
+        <!--Checkbox remember me-->
+        <div class="row">
+          <div class="col Centralized"  id = "LoginCheckboxContainer">
+            <div>
+              <input class="form-check-input" id = "LoginCheckbox" type="checkbox" value="" checked>
+              <label class="LoginText">Lembrar-me</label>
+            </div>
+          </div>
+        </div>
+
+        <!--Botão entrar-->
+        <div class="row">
+          <div class="col Centralized">
+            <button type="button" class="LoginButton btn btn-primary ">Entrar</button>
+          </div>
+        </div>
+        
+
+        <div class="row" id = "LoginLinkPadding">
+          <div class="col Centralized">
+            <a href="" class="LoginText LoginLink">Esqueceu sua senha?</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col Centralized">
+            <a href="" class="LoginText LoginLink">Relatar um problema</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Script Default CoreUI-->
+      <script src="/js/coreui.js" >
+      </script>
+
+  </body>
+</html>
